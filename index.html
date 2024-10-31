@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+
+
+        <div class="win-screen">
+            <h1 id="winner-state"></h1>
+            <p>Натисніть, щоб почати знов</p>
+        </div>
+
+        <div class="main">
+
+            <div class="player-area">
+                <div class="user-nickname">
+                    <span id="username">Test</span>
+                </div>
+                <div class="score-count">
+                    <span id="user-score"></span>
+                    <img src="./images/coin.png" alt="coin">
+                </div>
+                <div class="player-card">
+                    <img src="" alt="Backward Card" hidden>
+                </div>
+            </div>
+
+            <div class="controls">
+                <div class="game-info">
+                    <h1>Міні-Блекджек</h1>
+                    <h3>Гравець з більшим рахунком перемагає!</h3>
+                </div>
+                <div class="attempts-count">
+                    <span id="attempts"></span>
+                </div>
+                <div class="play-button">
+                    <input type="button" value="Грати">
+                </div>
+            </div>
+
+            <div class="player-area">
+                <div class="user-nickname">
+                    <span id="botname">Комп'ютер</span>
+                </div>
+                <div class="score-count">
+                    <span id="bot-score"></span>
+                    <img src="./images/coin.png" alt="coin">
+                </div>
+                <div class="player-card">
+                    <img src="" alt="Backward Card" hidden>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
